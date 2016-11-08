@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+    <title>个人中心</title>
+    <style>
+        * {
+            /* 去掉内边距 */
+            padding: 0;
+            /* 去掉外边距 */
+            margin: 0;
+            /* 去掉列表样式 */
+            list-style: none;
+            /* 去掉下划线 */
+            text-decoration: none;
+        }
+
+        .indiv {
+            background: #CDC5BF;
+            padding: 7px 7px 7px 7px
+        }
+
+        .indiv .head {
+            position: relative;
+            background: #FFFFFF;
+        }
+
+        .indiv .head .pic {
+            position: absolute;
+            left: 10px;
+            top: 20px;
+        }
+
+        .indiv .head .pic img {
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        .indiv .head .titl {
+            padding: 30px 80px;
+        }
+
+        .indiv .head .titl .con {
+            color: #CDC5BF;
+            font-size: 12px;
+        }
+
+        .indiv .head .arrow {
+            position: absolute;
+            right: 0px;
+            top: 40px;
+        }
+
+        .indiv .head ul {
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .indiv .head ul li {
+            float: left;
+            width: 33.3%;
+            height: 30px;
+            font-size: 12px;
+            box-sizing: border-box;
+            border-right: 1px solid #ddd;
+        }
+
+        .indiv .nav {
+            background: #FFFFFF;
+            margin-top: 10px
+        }
+
+        .indiv .nav ul {
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .indiv .nav ul li {
+            float: left;
+            width: 33.3%;
+            box-sizing: border-box;
+            text-align: center;
+            border-style: ridge;
+            border-width: 1px;
+            height: 90px;
+            font-size: 12px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .indiv .nav ul li div img {
+            border-color: #1C86EE;
+            border-radius: 25px;
+            font-size: 1px;
+            color: #1C86EE;
+            padding: 7px 7px 7px 7px;
+            width: 30px;
+            background: #66CD00;
+        }
+
+        .indiv .wallet {
+            background: #FFFFFF;
+            margin-top: 10px;
+        }
+
+        .indiv .wallet .walle {
+            padding: 10px 10px 10px 10px;
+            border-bottom-style: ridge;
+            border-bottom-width: 1px;
+            height: 15px;
+        }
+
+        .indiv .wallet .coin {
+            position: relative;
+        }
+
+        .indiv .wallet .coi {
+            position: absolute;
+            left: 10px;
+            top: 15px;
+        }
+
+        .indiv .wallet .coi img {
+            width: 20px;
+        }
+
+        .indiv .wallet .coin .titm {
+            position: relative;
+            padding: 15px 10px 15px 0px;
+            border-bottom-style: ridge;
+            border-bottom-width: 1px;
+            height: 20px;
+            margin-left: 40px;
+            margin-right: 10px;
+        }
+
+        .indiv .wallet .coin .titm .con {
+            padding-right: 210px;
+            color: #121212;
+        }
+
+        .indiv .wallet .coin .titm span {
+            color: #EEAD0E;
+        }
+
+        .indiv .wallet .coin .titm .arrow {
+            position: absolute;
+            right: -10px;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="indiv">
+        <div class="head">
+            <div class="pic">
+                <img src="images/1.jpg">
+            </div>
+            <div class="titl">
+                <div class="tit">狼族小狈</div>
+                <div class="con">923501273</div>
+                <div class="con">签名：</div>
+            </div>
+            <div class="arrow">
+                <img src="images/6.jpg" width="30">
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        0
+                    </div>
+                    发贴
+                </li>
+                <li>
+                    <div>
+                        0
+                    </div>
+                    回贴
+                </li>
+                <li>
+                    <div>
+                        0
+                    </div>
+                    论坛消息
+                </li>
+            </ul>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <div>
+                        <img src="images/1.jpg">
+                    </div>
+                    礼包
+                </li>
+                <li>
+                    <div>
+                        <img src="images/1.jpg">
+                    </div>
+                    活动
+                </li>
+                <li>
+                    <div>
+                        <img src="images/1.jpg">
+                    </div>
+                    充值
+                </li>
+                <li>
+                    <div>
+                        <img src="images/1.jpg">
+                    </div>
+                    客服
+                </li>
+                <li>
+                    <div>
+                        <img src="images/1.jpg">
+                    </div>
+                    通知
+                </li>
+                <li>
+                    <div>
+                        <img src="images/1.jpg">
+                    </div>
+                    夺宝
+                </li>
+            </ul>
+        </div>
+        <div class="wallet">
+            <div class="walle">钱包</div>
+            <div class="coin">
+                <div class="coi">
+                    <img src="images/1.jpg">
+                </div>
+                <div class="titm">
+                    <span class="con">米币</span>
+                    <span>0.00米币</span>
+                    <div class="arrow">
+                        <img src="images/6.jpg" width="30">
+                    </div>
+                </div>
+
+            </div>
+            <div class="coin">
+                <div class="coi">
+                    <img src="images/1.jpg">
+                </div>
+                <div class="titm">
+                    <span class="con">代金券</span>
+                    <div class="arrow">
+                        <img src="images/6.jpg" width="30">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="wallet">
+            <div class="walle">功能</div>
+            <div class="coin">
+                <div class="coi">
+                    <img src="images/1.jpg">
+                </div>
+                <div class="titm">
+                    <span class="con">下载管理</span>
+                    <div class="arrow">
+                        <img src="images/6.jpg" width="30">
+                    </div>
+                </div>
+            </div>
+            <div class="coin">
+                <div class="coi">
+                    <img src="images/1.jpg">
+                </div>
+                <div class="titm">
+                    <span class="con">更多帐户信息</span>
+                    <div class="arrow">
+                        <img src="images/6.jpg" width="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
