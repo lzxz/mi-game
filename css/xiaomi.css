@@ -15,8 +15,8 @@
 
 .head .search {
     position: relative;
-    width: 316px;
-    margin: auto;
+
+     padding: 0px 12%;
 }
 
 .head .search input {
@@ -25,11 +25,11 @@
     border-radius: 5px;
     padding: 12px 0px;
     width: 305px;
-  padding-left:10px;
+    padding-left: 10px;
 }
 
 .head .search i {
-  position: absolute;
+    position: absolute;
     right: 5px;
     top: 15px;
 }
