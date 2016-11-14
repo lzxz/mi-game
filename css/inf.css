@@ -1,0 +1,90 @@
+	.inf {
+			background: #CDC5BF;
+			padding: 7px 7px 7px 7px;
+			margin-top: 5px;
+			overflow: hidden;
+		}
+
+		.inf .orma {
+			background: #FFFFFF;
+		}
+
+		.inf .orma .title {
+			margin-left: 8px;
+			margin-right: 8px;
+			border-bottom-style: ridge;
+			border-bottom-width: 1px;
+			height: 140px;
+		}
+
+		.inf .orma .title .titl {
+			font-size: 12px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: #0c212b;
+			text-align: center;
+		}
+
+		.inf .orma .title ul li {
+			float: left;
+			width: 33.3%;
+			box-sizing: border-box;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		.inf .orma .title ul li img {
+			border-style: ridge;
+			border-width: 1px;
+			height: 70px;
+			width: 100%
+		}
+
+		.inf .orma .title .content .con {
+			font-size: 12px;
+			color: #CDC5BF;
+		}
+
+		.inf .orma .title .content .ding {
+			font-size: 12px;
+			color: #ea66a6;
+			border: 1px solid;
+			border-color: #ea66a6;
+			border-radius: 1px;
+			padding: 1px 1px 1px 1px;
+		}
+
+		.inf .orma .heading {
+			position: relative;
+			margin-left: 8px;
+			margin-right: 8px;
+			padding-top: 25px;
+			border-bottom-style: ridge;
+			border-bottom-width: 1px;
+			height: 90px;
+			padding-right: 120px;
+		}
+
+		.inf .orma .heading .headin .headi {
+			color: #CDC5BF;
+
+		}
+
+		.inf .orma .heading .com {
+			padding-top: 15px;
+			color: #CDC5BF;
+
+		}
+		.inf .orma .heading .com i{
+			color: #CDC5BF;
+
+		}
+		.inf .orma .heading .pic {
+			position: absolute;
+			right: 0px;
+			top: 10px;
+		}
+
+		.inf .orma .heading .pic img {
+			width: 108px;
+		}

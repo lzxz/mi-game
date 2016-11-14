@@ -1,0 +1,80 @@
+.head {
+    position: relative;
+}
+
+.head .portrait {
+    position: absolute;
+    left: 5px;
+    top: 5px
+}
+
+.head .portrait img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.head .search {
+    position: relative;
+    width: 316px;
+    margin: auto;
+}
+
+.head .search input {
+    border: 1px solid;
+    border-color: #1C86EE;
+    border-radius: 5px;
+    padding: 12px 0px;
+    width: 305px;
+  padding-left:10px;
+}
+
+.head .search i {
+  position: absolute;
+    right: 5px;
+    top: 15px;
+}
+
+.head .searc {
+    border-right-style: dotted;
+    border-right-width: 40px
+}
+
+.head .download {
+    position: absolute;
+    right: 5px;
+    top: 5px
+}
+
+.head .download i {
+    border: 1px solid;
+    border-color: #CDC5BF;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+    color: #1C86EE;
+    font-size: 25px;
+}
+
+.nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav ul {
+    overflow: hidden;
+    margin: auto;
+    width: 75%
+}
+
+.nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.nav ul li .hover {
+    color: #1C86EE;
+}
+
+.nav ul li a {
+    color: #292929;
+}
