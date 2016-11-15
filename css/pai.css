@@ -96,12 +96,12 @@
 .pai .play .game .titm .class i {
  font-size: 12px;
  color: #FF7F00;
-
 }
 
 .pai .play .game .titm .con {
     color: #CDC5BF;
     font-size: 12px;
+    padding-top:2px;
 }
 
 .pai .play .game .dow {
