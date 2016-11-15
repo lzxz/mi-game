@@ -1,5 +1,6 @@
 .head {
     position: relative;
+     margin-top:1px;
 }
 
 .head .portrait {
@@ -51,7 +52,7 @@
     border: 1px solid;
     border-color: #CDC5BF;
     border-radius: 5px;
-    padding: 4px 4px 4px 4px;
+    padding: 0px 4px 4px 4px;
     color: #1C86EE;
     font-size: 32px;
 }
