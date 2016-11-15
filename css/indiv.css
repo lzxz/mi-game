@@ -72,14 +72,16 @@
     padding-bottom: 15px;
 }
 
-.indiv .nav ul li div img {
-    border-color: #1C86EE;
-    border-radius: 25px;
-    font-size: 1px;
-    color: #1C86EE;
-    padding: 7px 7px 7px 7px;
-    width: 30px;
-    background: #66CD00;
+.indiv .nav ul li div {
+    padding-bottom: 10px;
+}
+
+.indiv .nav ul li div i {
+    border-color: #FFFFFF;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 5px 5px 5px 5px;
+    border-radius: 50%;
 }
 
 .indiv .wallet {
@@ -101,11 +103,12 @@
 .indiv .wallet .coi {
     position: absolute;
     left: 10px;
-    top: 15px;
+    top: 12px;
 }
 
-.indiv .wallet .coi img {
-    width: 20px;
+.indiv .wallet .coi i {
+    color: #CDC5BF;
+    font-size: 20px;
 }
 
 .indiv .wallet .coin .titm {
