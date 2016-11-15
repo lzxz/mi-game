@@ -14,7 +14,7 @@
 			margin-right: 8px;
 			border-bottom-style: ridge;
 			border-bottom-width: 1px;
-			height: 140px;
+			height: 145px;
 		}
 
 		.inf .orma .title .titl {
@@ -36,7 +36,7 @@
 		.inf .orma .title ul li img {
 			border-style: ridge;
 			border-width: 1px;
-			height: 70px;
+			height: 80px;
 			width: 100%
 		}
 
@@ -61,7 +61,7 @@
 			padding-top: 25px;
 			border-bottom-style: ridge;
 			border-bottom-width: 1px;
-			height: 90px;
+			height: 75px;
 			padding-right: 120px;
 		}
 
@@ -71,7 +71,7 @@
 		}
 
 		.inf .orma .heading .com {
-			padding-top: 15px;
+			padding-top: 5px;
 			color: #CDC5BF;
 
 		}
@@ -86,5 +86,6 @@
 		}
 
 		.inf .orma .heading .pic img {
-			width: 108px;
+			width: 125px;
+			height: 80px;
 		}

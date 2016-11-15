@@ -48,19 +48,21 @@
 	.classify .apply {
 		position: relative;
 		background: #FFFFFF;
-		padding: 20px 10px 10px 40px;
+		padding: 20px 10px 10px 50px;
 	}
 
 	.classify .apply .pic {
 		position: absolute;
 		left: 10px;
-		top: 20px;
+		top: 15px;
 	}
 
 	.classify .apply .pic img {
 		width: 20px;
 	}
-
+.classify .apply .pic i{
+	font-size: 25px;
+}
 	.classify .apply .titm {
 		border-bottom-style: ridge;
 		border-bottom-width: 1px;
@@ -86,10 +88,6 @@
 		position: absolute;
 		right: 10px;
 		top: 18px;
-	}
-
-	.classify .apply .print img {
-		width: 15px;
 	}
 
 	.classify .apply .con {
