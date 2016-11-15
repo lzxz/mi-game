@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1479196443695'); /* IE9*/
-  src: url('iconfont.eot?t=1479196443695#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1479196443695') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1479196443695') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1479196443695#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1479206335087'); /* IE9*/
+  src: url('iconfont.eot?t=1479206335087#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1479206335087') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1479206335087') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1479206335087#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -70,7 +70,13 @@
 
 .icon-celve:before { content: "\e60f"; }
 
+.icon-xing-copy:before { content: "\e503"; }
+
 .icon-sousuo-sousuo:before { content: "\e622"; }
 
+.icon-xing3:before { content: "\e604"; }
+
 .icon-xiaomi:before { content: "\e501"; }
+
+.icon-xing:before { content: "\e502"; }
 

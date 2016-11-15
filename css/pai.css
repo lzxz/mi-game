@@ -93,8 +93,10 @@
     font-size: 15px;
 }
 
-.pai .play .game .titm .class img {
-    width: 10px;
+.pai .play .game .titm .class i {
+ font-size: 12px;
+ color: #FF7F00;
+
 }
 
 .pai .play .game .titm .con {
