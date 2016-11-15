@@ -42,9 +42,9 @@
 .pai .dow .genre {
     position: absolute;
     right: 30px;
-    top: 10px;
+    top: 6px;
     color: #1C86EE;
-    font-size: 2px;
+
 }
 
 .pai .play {
@@ -86,7 +86,7 @@
 }
 
 .pai .play .game .titm {
-    padding: 20px 10px 10px 80px;
+    padding: 20px 10px 10px 85px;
 }
 
 .pai .play .game .titm .tit {
