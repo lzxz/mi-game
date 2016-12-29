@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1479206335087'); /* IE9*/
-  src: url('iconfont.eot?t=1479206335087#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1479206335087') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1479206335087') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1479206335087#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1482999858172'); /* IE9*/
+  src: url('iconfont.eot?t=1482999858172#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1482999858172') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1482999858172') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1482999858172#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -12,71 +12,18 @@
   font-size:16px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-shezhi:before { content: "\343c"; }
+.icon-rili:before { content: "\e601"; }
 
-.icon-xiazai:before { content: "\e62a"; }
+.icon-jingpin:before { content: "\e600"; }
 
-.icon-zuixinkaifu:before { content: "\e635"; }
+.icon-xingxing:before { content: "\e62d"; }
 
-.icon-weibiaoti1:before { content: "\e61d"; }
+.icon-icon:before { content: "\e60f"; }
 
-.icon-xin:before { content: "\e60a"; }
+.icon-xiuxian:before { content: "\e686"; }
 
-.icon-kefu:before { content: "\e602"; }
-
-.icon-jiantou:before { content: "\e678"; }
-
-.icon-huodong:before { content: "\e617"; }
-
-.icon-jiantou1:before { content: "\e66c"; }
-
-.icon-download:before { content: "\e636"; }
-
-.icon-xiazai1:before { content: "\e661"; }
-
-.icon-jianicon:before { content: "\e601"; }
-
-.icon-qipai:before { content: "\e616"; }
-
-.icon-37457:before { content: "\e60e"; }
-
-.icon-daijinquan:before { content: "\e64f"; }
-
-.icon-html-copy:before { content: "\e600"; }
-
-.icon-yiyuanduobao:before { content: "\e6a6"; }
-
-.icon-yuyue:before { content: "\e613"; }
-
-.icon-pinpai:before { content: "\e63d"; }
-
-.icon-role:before { content: "\e67f"; }
-
-.icon-xiuxian:before { content: "\e64b"; }
-
-.icon-chongzhi:before { content: "\e637"; }
-
-.icon-bi:before { content: "\e6fe"; }
-
-.icon-libao:before { content: "\e61b"; }
-
-.icon-iosgamecontrollerb:before { content: "\e6b6"; }
-
-.icon-tongzhi:before { content: "\e709"; }
-
-.icon-celve:before { content: "\e60f"; }
-
-.icon-xing-copy:before { content: "\e503"; }
-
-.icon-sousuo-sousuo:before { content: "\e622"; }
-
-.icon-xing3:before { content: "\e604"; }
-
-.icon-xiaomi:before { content: "\e501"; }
-
-.icon-xing:before { content: "\e502"; }
+.icon-xiaomi:before { content: "\e720"; }
 

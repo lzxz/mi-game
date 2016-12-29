@@ -1,83 +1,109 @@
-.head {
-    position: relative;
-     margin-top:1px;
-}
-
-.head .portrait {
-    position: absolute;
-    left: 5px;
-    top: 0px
-}
-
-.head .portrait img {
-    width: 41px;
-    border-radius: 50%;
-}
-
-.head .search {
-    position: relative;
-    width: 250px;
-    margin: auto;
-}
-
-.head .search input {
-    border: 1px solid;
-    border-color: #1C86EE;
-    border-radius: 5px;
-    padding: 12px 0px;
-    width: 238px;
-    padding-left: 10px;
-}
-
-.head .search i {
-    position: absolute;
-    right: 5px;
-    top: 0px;
-    font-size: 40px;
-    color: #CDC5BF;
-}
-
-.head .searc {
-    border-right-style: dotted;
-    border-right-width: 40px
-}
-
-.head .download {
-    position: absolute;
-    right: 5px;
-    top: 0px
-}
-
-.head .download i {
-    border: 1px solid;
-    border-color: #CDC5BF;
-    border-radius: 5px;
-    padding: 0px 4px 4px 4px;
-    color: #1C86EE;
-    font-size: 32px;
-}
-
 .nav {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.nav ul {
     overflow: hidden;
     margin: auto;
-    width: 75%
 }
 
-.nav ul li {
+.nav li {
     float: left;
     width: 25%;
     text-align: center;
+    background: #00FF00;
+    padding: 10px 0px;
 }
 
-.nav ul li .hover {
-    color: #1C86EE;
+.nav li a {
+    color: lightslategray;
 }
 
-.nav ul li a {
-    color: #292929;
+.nav li .hover {
+    color: lightyellow;
+}
+
+.rec {
+    padding: 5px 5px 0px 5px;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.print div {
+    overflow: hidden;
+    padding: 0px 3px 0px 6px;
+}
+
+.print div a {
+    float: left;
+    width: 50%;
+}
+
+.print div a img {
+    width: 99%;
+}
+
+.navi {
+    overflow: hidden;
+    padding: 0px 3px;
+}
+
+.navi li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid honeydew;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 10px 0px;
+    background: springgreen;
+}
+
+.navi li a {
+    color: snow;
+}
+
+.game {
+    position: relative;
+
+}
+
+.game .pic {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.game .pic img {
+    width: 50px
+}
+
+.game .titm {
+    padding: 10px 0px 10px 70px;
+     border-bottom:1px solid springgreen;
+}
+
+.game .titm .tit {
+    font-size: 15px;
+}
+
+.game .titm .eva {
+    font-size: 12px;
+    color: gold;
+}
+
+.game .titm .con {
+    font-size: 12px;
+    color: slategrey;
+}
+
+.game .dow {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    font-size: 12px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background: springgreen;
+    color: snow;
 }
