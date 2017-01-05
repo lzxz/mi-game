@@ -70,10 +70,12 @@
 
 .rec {
     padding: 5px 5px 0px 5px;
+  
 }
 
-.picture img {
+.rec .picture img {
     width: 100%;
+
 }
 
 .print div {
@@ -84,10 +86,12 @@
 .print div a {
     float: left;
     width: 50%;
+  
 }
 
 .print div a img {
     width: 99%;
+    height: 100px
 }
 
 .navi {
