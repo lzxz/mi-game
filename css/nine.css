@@ -1,0 +1,160 @@
+.return {
+    position: relative;
+    background: #363636;
+    padding: 5px 0px 5px 25px;
+}
+
+.return i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.return a {
+    background: #00FF00;
+    color: snow;
+}
+
+.return .titm {
+    color: snow;
+    font-size: 15px;
+}
+
+.search i {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+    color: snow;
+}
+
+.head {
+    position: relative;
+}
+
+.head .pic {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.head .pic img {
+    width: 50px;
+}
+
+.head .titm {
+    padding: 8px 8px 0px 65px;
+}
+
+.head .titm .tit {
+    font-size: 12px;
+}
+
+.head .titm .eva {
+    font-size: 12px;
+    color: darkorange;
+}
+
+.head .titm .con {
+    color: #C5C1AA;
+    font-size: 12px;
+}
+
+ul {
+    overflow: hidden;
+    margin: 5px 5px 10px 5px;
+}
+
+ul li {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1px 1px 1px 1px;
+}
+
+ul li a img {
+    width: 100%;
+}
+
+.titm {
+    color: #C5C1AA;
+    margin: 5px 5px;
+    font-size: 15px;
+}
+
+.co {
+    font-size: 12px;
+    margin: 5px 5px;
+}
+
+.score {
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    padding: 5px 0px;
+    margin: 5px 5px 5px 5px;
+    background: #C5C1AA;
+    color: #080808;
+}
+
+.deve {
+    text-align: center;
+    font-size: 12px;
+    color: #C5C1AA;
+}
+
+.nav {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.nav ul li {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nav ul li a {
+    color: #121212;
+}
+
+.nav ul li a div .pic {
+    width: 60px;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: snow;
+}
+
+.footer ul {
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer ul li {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+      padding: 5px 0px;
+}
+
+.footer ul .hover {
+    color: #f00;
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    border: 1px solid darkgray;
+    background: #00CD00;
+    border-radius: 15px;
+    padding: 5px 0px;
+}
+.footer ul li a{
+    color: #080808;
+}
