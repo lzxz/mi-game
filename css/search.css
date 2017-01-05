@@ -18,11 +18,11 @@
 }
 
 .search input {
-    margin: 5px 10px 5px 30px;
-    padding: 5px 85px 5px 30px;
+    margin: 5px 0px 5px 30px;
+    padding: 5px 10px 5px 30px;
     border: 1px solid #363636;
     border-radius: 15px;
-    width: 185px; 
+    width: 245px
 }
 
 .titm {
