@@ -1,0 +1,91 @@
+    .return {
+    position: relative;
+    background: #363636;
+    padding: 10px 0px 10px 30px;
+}
+
+.return i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.return a {
+    color: snow;
+}
+
+.return .titm {
+    color: snow;
+    font-size: 15px;
+}
+
+.search i {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+    color: snow;
+}
+
+.ril {
+    background: #FFFAFA;
+    position: relative;
+}
+
+.ril .rili {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #080808;
+}
+
+.ril .titm {
+    padding: 10px 10px 10px 32px;
+    color: #080808;
+}
+
+.game {
+    position: relative;
+}
+
+.game .pic {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.game .pic img {
+    width: 50px;
+}
+
+.game .titm {
+    padding: 10px 10px 10px 70px;
+    border-bottom: 1px solid #848484;
+}
+
+.game .titm .tit {
+    font-size: 15px;
+    color: #080808;
+}
+
+.game .titm .eva {
+    font-size: 12px;
+    color: yellow;
+}
+
+.game .titm .con {
+    font-size: 12px;
+    color: slategrey;
+}
+
+.game .dow {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border: 1px solid #737373;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #080808;
+    font-size: 15px;
+}
