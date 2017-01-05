@@ -7,7 +7,7 @@
 .return i {
     position: absolute;
     left: 10px;
-    top: 7px;
+    top: 8px;
     font-size: 20px;
     color: snow;
 }
@@ -20,13 +20,12 @@
 .search i {
     position: absolute;
     right: 10px;
-    top: 5px;
+    top: 6px;
     font-size: 20px;
     color: snow;
 }
 
 .nav {
-
     overflow: hidden;
     margin: auto;
     background: #080808;
@@ -36,12 +35,10 @@
     float: left;
     width: 25%;
     text-align: center;
-
 }
 
 .nav li .on {
     border-radius: 10px;
-
     color: snow;
     border-bottom: 2px solid fuchsia;
     background: fuchsia;
@@ -56,9 +53,8 @@
     display: block;
     padding: 5px 0px;
     margin: 5px 10px;
-
-
 }
+
 .nav li a::after {
     content: "";
     position: absolute;
@@ -66,9 +62,9 @@
     right: -10px;
     bottom: 6px;
     border-right: 1px solid snow;
-
 }
-.nav li:last-of-type a::after{
+
+.nav li:last-of-type a::after {
     display: none;
 }
 
@@ -140,6 +136,7 @@
 
 .game .titm .tit {
     font-size: 15px;
+    color: #080808;
 }
 
 .game .titm .eva {
@@ -162,3 +159,4 @@
     padding: 5px 10px;
     color: #080808;
 }
+
