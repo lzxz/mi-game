@@ -1,0 +1,31 @@
+.search {
+    background: #363636;
+    position: relative;
+}
+
+.search i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: snow;
+}
+
+.search .hunt i {
+    position: absolute;
+    left: 40px;
+    top: 11px;
+    color: gray;
+}
+
+.search input {
+    margin: 5px 0px 5px 30px;
+    padding: 5px 85px 5px 30px;
+    border: 1px solid #363636;
+    border-radius: 15px;
+}
+
+.titm {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #848484;
+    color: #0A0A0A;
+}
