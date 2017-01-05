@@ -48,12 +48,14 @@
 }
 
 .head .titm .tit {
-    font-size: 12px;
+    font-size: 15px;
+    color: #080808;
 }
+
 
 .head .titm .eva {
     font-size: 12px;
-    color: darkorange;
+    color: gold;;
 }
 
 .head .titm .con {
