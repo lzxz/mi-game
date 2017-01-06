@@ -43,25 +43,24 @@ header {
     float: left;
     width: 25%;
     text-align: center;
+
 }
 
 .nav li .on {
-    border-radius: 10px;
     color: snow;
-    border: 2px solid fuchsia;
     border-radius: 10px;
     background: fuchsia;
     display: block;
+    margin: 5px 5px;
     padding: 5px 0px;
-    margin: 5px 10px;
 }
 
 .nav li a {
     position: relative;
     color: #CDCDC1;
     display: block;
+ margin: 5px 5px;
     padding: 5px 0px;
-    margin: 5px 10px;
 }
 
 .nav li a::after {
@@ -78,7 +77,7 @@ header {
 }
 
 .rec {
-    margin-top: 78px;
+    margin-top: 75px;
     padding: 5px 5px 0px 5px;
 }
 
