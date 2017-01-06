@@ -1,3 +1,12 @@
+header {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+   background: #363636;
+    z-index:1;
+
+}
 .return {
     position: relative;
     background: #363636;
@@ -30,7 +39,7 @@
 }
 
 .recharge {
-    margin: auto;
+    margin-top: 37px;
     text-align: center;
     padding: 20px 0px;
     background: #00EE00;

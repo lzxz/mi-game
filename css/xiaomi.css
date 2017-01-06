@@ -1,3 +1,11 @@
+header {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
 .return {
     position: relative;
     background: #363636;
@@ -69,13 +77,12 @@
 }
 
 .rec {
+    margin-top: 75px;
     padding: 5px 5px 0px 5px;
-  
 }
 
 .rec .picture img {
-    width: 100%; 
-
+    width: 100%;
 }
 
 .print div {
@@ -86,11 +93,10 @@
 .print div a {
     float: left;
     width: 50%;
-  
 }
 
 .print div a img {
-    width: 99%; 
+    width: 99%;
     height: 100px
 }
 
@@ -135,7 +141,7 @@
 
 .game .titm {
     padding: 10px 0px 10px 70px;
-    border-bottom: 1px solid #848484;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .game .titm .tit {
@@ -144,7 +150,7 @@
 }
 
 .game .titm .eva {
-    font-size: 12px;
+    font-size: 0px;
     color: gold;
 }
 
@@ -158,9 +164,8 @@
     right: 15px;
     top: 20px;
     font-size: 15px;
-    border: 1px solid #737373;
-    border-radius: 5px;
+    border: 1px solid #EAEAEA;
     padding: 5px 10px;
     color: #080808;
+    border-radius: 5px;
 }
-
