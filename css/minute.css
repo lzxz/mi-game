@@ -70,7 +70,7 @@
 
 .game .titm {
     padding: 10px 10px 10px 70px;
-    border-bottom: 1px solid #848484;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .game .titm .tit {
@@ -92,7 +92,7 @@
     position: absolute;
     right: 15px;
     top: 20px;
-    border: 1px solid #737373;
+    border: 1px solid #EAEAEA;
     border-radius: 5px;
     padding: 5px 10px;
     color: #080808;
