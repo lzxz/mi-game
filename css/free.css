@@ -16,8 +16,8 @@ header {
 .return i {
     position: absolute;
     left: 10px;
-    top: 7px;
-    font-size: 20px;
+    top: 12px;
+    font-size: 15px;
     color: snow;
 }
 

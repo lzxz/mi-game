@@ -43,7 +43,6 @@ header {
     float: left;
     width: 25%;
     text-align: center;
-
 }
 
 .nav li .on {
@@ -59,7 +58,7 @@ header {
     position: relative;
     color: #CDCDC1;
     display: block;
- margin: 5px 5px;
+    margin: 5px 5px;
     padding: 5px 0px;
 }
 
