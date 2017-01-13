@@ -1,0 +1,46 @@
+.calendar{
+ width: 200px;
+    margin: 0 auto;
+    background: wheat;
+    padding: 10px 10px;
+}
+.calendar .time{
+    text-align: center;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background: fuchsia;
+    padding: 5px 5px;
+    color: snow;
+    font-size: 15px;
+}
+.calendar ul{
+    overflow: hidden;
+}
+
+.calendar ul .active{
+    background: snow;
+    color: fuchsia;
+    border: 1px solid fuchsia;
+    box-sizing: border-box;
+    margin: 5px 5px
+}
+.calendar ul li{
+    float: left;
+    width: 28.3%;
+    box-sizing: border-box;
+    text-align: center;
+    background: slategrey;
+    border: 1px solid slategrey;
+    color: snow;
+    padding: 5px 0px;
+    font-size: 12px;
+    margin: 5px 5px;
+}
+.calendar .text{
+    padding: 10px 10px;
+    margin: 5px 5px;
+    background: snow;
+    font-size: 12px;
+    color: darkslategray;
+    }
+  

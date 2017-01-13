@@ -1,0 +1,35 @@
+body{
+   
+    position: relative;
+    padding: 10px 0px;
+}
+div{
+  
+     margin: 0 40%
+}
+p{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: springgreen
+}
+select{
+    position: absolute;
+    left: 204px;
+    top: 8px;
+    font-size: 12px;
+    background: springgreen;
+    border: 1px solid springgreen;
+}
+ul{
+    border: 1px solid #363636;
+    width: 72px;
+    font-size: 12px;
+    background: #363636;
+}
+ul li {
+    text-align: center;
+    margin: 5px 0px;
+}
+a{
+    color: snow;
+}
