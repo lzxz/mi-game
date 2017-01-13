@@ -7,7 +7,7 @@
 .calendar .time{
     text-align: center;
     border: 1px solid wheat;
-    border-radius: 10px;
+    border-radius: 15px;
     background: fuchsia;
     padding: 5px 5px;
     color: snow;
@@ -44,5 +44,5 @@
     color: darkslategray;
 }
 p{
-    padding: 10px 0px;
+    padding-top:10px;
 }
