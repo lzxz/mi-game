@@ -42,5 +42,7 @@
     background: snow;
     font-size: 12px;
     color: darkslategray;
-    }
-  
+}
+p{
+    padding: 10px 0px;
+}
