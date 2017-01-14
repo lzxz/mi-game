@@ -8,45 +8,43 @@
     <link rel="stylesheet" href="css/timing.css">
     <link rel="stylesheet" href="iconfont/iconfont.css">
      <script type="text/javascript">
-     function toDouble(num)
+     function todouble(num)
      {
          if(num<10)
          {
-             return'0'+num;
+             return"0"+num;
          }
          else{
-             return''+num;
+             return""+num;
          }
      }
      window.onload=function()
      {
-         var oBtn=document.getElementById('btnl');
-         var aImg=document.getElementsByTagName('img');
-         var i=0;
-         oBtn.onclick=function ()
-         {
-             var oDate=new Date();
-             var str=toDouble(oDate.getHours())+toDouble(oDate.getUTCMinutes())+toDouble(oDate.getSeconds());
+         function update(){
+             var oimg=document.getElementsByTagName("img");
+             var d=new Date();
+             var src=todouble(d.getHours())+todouble(d.getMinutes())+todouble(d.getSeconds());
 
-             for(i=0;i<aImg.length;i++);
+             for(var i=0;i<oimg.length;i++)
              {
-                 aImg[i].src='/images'+str.charAt(i)+'.png';
+                 oimg[i].src="img/"+str.charAt(i)+".jpg";
              }
          }
-        
+         setInterval(update,1000);
+         update();
      }
     </script>
 </head>
-<body>
-    <input id="btnl" type="button" value="更新时间" />
-    <img src="images/0.png" />
-    <img src="images/0.png" />
-    点
-    <img src="images/0.png" />
-    <img src="images/0.png" />
+    <BODY style="color: blue; background: white; font-size: 20PX;">
+    <img src="img/0.jpg" />
+    <img src="img/0.jpg" />
+    时
+    <img src="img/0.jpg" />
+    <img src="img/0.jpg" />
     分
-    <img src="images/0.png" />
-    <img src="images/0.png" />
+    <img src="img/0.jpg" />
+    <img src="img/0.jpg" />
     秒
+    </BODY>
 </body>
 </html>

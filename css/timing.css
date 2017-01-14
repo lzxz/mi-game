@@ -1,17 +1,4 @@
-body{ 
-    
-  padding: 300px 0px;
-    color: fuchsia;
-    background: cornflowerblue;
-     text-align: center;
-     font-size: 25px;
-    
-}
-img {
-    width: 10px;
-    height: 10px;
-    border: 1px solid snow;
-    padding: 5px 5px;
-    background: snow;
-    border-radius: 15px;
+img{
+  width: 30px;
+  height: 40px;
 }
